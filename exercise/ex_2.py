@@ -1,3 +1,4 @@
+import math
 # trojkat
 
 a = 10
@@ -23,7 +24,6 @@ print("Obwod rombu wynosi "
     + str(obwod_romb) + ", zas pole wynosi " + str(pole_romb) + ".")
 
 # kolo
-import math
 
 r = 10
 
@@ -31,3 +31,12 @@ polo_kolo = math.pi * r**
 obwod_kolo = 2 * math.pi * r
 print("Obwod kola wynosi " 
     + str(obwod_kolo) + ", zas pole wynosi " + str(pole_kolo) + ".")
+
+# kwadrat
+
+a_kwadrat = 10
+obwod_kwadrat = 4 * a_kwadrat
+pole_kwadrat = a_kwadrat**
+
+print("Obwod kwadratu wynosi " 
+    + str(obwod_kwadrat) + ", zas pole wynosi " + str(pole_kwadratu) + ".")
