@@ -21,13 +21,3 @@ pole_romb = a_romb * h_romb
 
 print("Obwod rombu wynosi " 
     + str(obwod_romb) + ", zas pole wynosi " + str(pole_romb) + ".")
-
-# kolo
-import math
-
-r = 10
-
-polo_kolo = math.pi * r
-obwod_kolo = 2 * math.pi * r
-print("Obwod kola wynosi " 
-    + str(obwod_kolo) + ", zas pole wynosi " + str(pole_kolo) + ".")
