@@ -13,7 +13,7 @@ print("{} {}".format(hello, student))
 
 # zadanie 1.3
 
-studenci = ["Ania", "Kuba", "Piotr", "Jan"]
+studenci = ["Ania", "Kuba", "Piotr", "Marcin"]
 liczba_studentow = len(studenci)
 
 print("{} {}".format("Liczba studentow wynosi: ", liczba_studentow))
